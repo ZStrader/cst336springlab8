@@ -34,7 +34,7 @@
 
             $.ajax({
                 type: "GET",
-                url: "api/getCurl.php",
+                url: "getCurl.php",
                 dataType: "json",
                 data: {
                         "tags": $("#search").val(),
